@@ -1,0 +1,151 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do Randomizer_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying F:/Quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/randomizer {D:/randomizer/Randomizer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:08:36 on May 11,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/randomizer" D:/randomizer/Randomizer.v 
+# -- Compiling module Randomizer
+# 
+# Top level modules:
+# 	Randomizer
+# End time: 04:08:37 on May 11,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/randomizer {D:/randomizer/tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:08:37 on May 11,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/randomizer" D:/randomizer/tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 04:08:37 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 04:08:37 on May 11,2022
+# Loading work.tb
+# Loading work.Randomizer
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# xxxxxxxxxxxxxxxxxxxxxxxx
+# Xxxxxxxxxxxxxxxxxxxxxxxx
+# Xxxxxxxxxxxxxxxxxxxxxxxx
+# Xxxxxxxxxxxxxxxxxxxxxxxx
+# 5xxxxxxxxxxxxxxxxxxxxxxx
+# 5Xxxxxxxxxxxxxxxxxxxxxxx
+# 5Xxxxxxxxxxxxxxxxxxxxxxx
+# 5Xxxxxxxxxxxxxxxxxxxxxxx
+# 55xxxxxxxxxxxxxxxxxxxxxx
+# 55Xxxxxxxxxxxxxxxxxxxxxx
+# 55Xxxxxxxxxxxxxxxxxxxxxx
+# 55Xxxxxxxxxxxxxxxxxxxxxx
+# 558xxxxxxxxxxxxxxxxxxxxx
+# 558Xxxxxxxxxxxxxxxxxxxxx
+# 558Xxxxxxxxxxxxxxxxxxxxx
+# 558Xxxxxxxxxxxxxxxxxxxxx
+# 558axxxxxxxxxxxxxxxxxxxx
+# 558aXxxxxxxxxxxxxxxxxxxx
+# 558aXxxxxxxxxxxxxxxxxxxx
+# 558aXxxxxxxxxxxxxxxxxxxx
+# 558acxxxxxxxxxxxxxxxxxxx
+# 558acXxxxxxxxxxxxxxxxxxx
+# 558acXxxxxxxxxxxxxxxxxxx
+# 558acXxxxxxxxxxxxxxxxxxx
+# 558ac4xxxxxxxxxxxxxxxxxx
+# 558ac4Xxxxxxxxxxxxxxxxxx
+# 558ac4Xxxxxxxxxxxxxxxxxx
+# 558ac4Xxxxxxxxxxxxxxxxxx
+# 558ac4axxxxxxxxxxxxxxxxx
+# 558ac4aXxxxxxxxxxxxxxxxx
+# 558ac4aXxxxxxxxxxxxxxxxx
+# 558ac4aXxxxxxxxxxxxxxxxx
+# 558ac4a5xxxxxxxxxxxxxxxx
+# 558ac4a5Xxxxxxxxxxxxxxxx
+# 558ac4a5Xxxxxxxxxxxxxxxx
+# 558ac4a5Xxxxxxxxxxxxxxxx
+# 558ac4a53xxxxxxxxxxxxxxx
+# 558ac4a53Xxxxxxxxxxxxxxx
+# 558ac4a53Xxxxxxxxxxxxxxx
+# 558ac4a53Xxxxxxxxxxxxxxx
+# 558ac4a53axxxxxxxxxxxxxx
+# 558ac4a53aXxxxxxxxxxxxxx
+# 558ac4a53aXxxxxxxxxxxxxx
+# 558ac4a53aXxxxxxxxxxxxxx
+# 558ac4a53a1xxxxxxxxxxxxx
+# 558ac4a53a1Xxxxxxxxxxxxx
+# 558ac4a53a1Xxxxxxxxxxxxx
+# 558ac4a53a1Xxxxxxxxxxxxx
+# 558ac4a53a17xxxxxxxxxxxx
+# 558ac4a53a17Xxxxxxxxxxxx
+# 558ac4a53a17Xxxxxxxxxxxx
+# 558ac4a53a17Xxxxxxxxxxxx
+# 558ac4a53a172xxxxxxxxxxx
+# 558ac4a53a172Xxxxxxxxxxx
+# 558ac4a53a172Xxxxxxxxxxx
+# 558ac4a53a172Xxxxxxxxxxx
+# 558ac4a53a1724xxxxxxxxxx
+# 558ac4a53a1724Xxxxxxxxxx
+# 558ac4a53a1724Xxxxxxxxxx
+# 558ac4a53a1724Xxxxxxxxxx
+# 558ac4a53a1724exxxxxxxxx
+# 558ac4a53a1724eXxxxxxxxx
+# 558ac4a53a1724eXxxxxxxxx
+# 558ac4a53a1724eXxxxxxxxx
+# 558ac4a53a1724e1xxxxxxxx
+# 558ac4a53a1724e1Xxxxxxxx
+# 558ac4a53a1724e1Xxxxxxxx
+# 558ac4a53a1724e1Xxxxxxxx
+# 558ac4a53a1724e16xxxxxxx
+# 558ac4a53a1724e16Xxxxxxx
+# 558ac4a53a1724e16Xxxxxxx
+# 558ac4a53a1724e16Xxxxxxx
+# 558ac4a53a1724e163xxxxxx
+# 558ac4a53a1724e163Xxxxxx
+# 558ac4a53a1724e163Xxxxxx
+# 558ac4a53a1724e163Xxxxxx
+# 558ac4a53a1724e163axxxxx
+# 558ac4a53a1724e163aXxxxx
+# 558ac4a53a1724e163aXxxxx
+# 558ac4a53a1724e163aXxxxx
+# 558ac4a53a1724e163acxxxx
+# 558ac4a53a1724e163acXxxx
+# 558ac4a53a1724e163acXxxx
+# 558ac4a53a1724e163acXxxx
+# 558ac4a53a1724e163ac2xxx
+# 558ac4a53a1724e163ac2Xxx
+# 558ac4a53a1724e163ac2Xxx
+# 558ac4a53a1724e163ac2Xxx
+# 558ac4a53a1724e163ac2bxx
+# 558ac4a53a1724e163ac2bXx
+# 558ac4a53a1724e163ac2bXx
+# 558ac4a53a1724e163ac2bXx
+# 558ac4a53a1724e163ac2bfx
+# 558ac4a53a1724e163ac2bfX
+# 558ac4a53a1724e163ac2bfX
+# 558ac4a53a1724e163ac2bfX
+# 558ac4a53a1724e163ac2bf9
+# true answer
+# ** Note: $finish    : D:/randomizer/tb.v(47)
+#    Time: 2050 ps  Iteration: 1  Instance: /tb
+# 1
+# Break in Module tb at D:/randomizer/tb.v line 47
+# End time: 04:09:28 on May 11,2022, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 0

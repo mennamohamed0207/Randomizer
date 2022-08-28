@@ -1,0 +1,14 @@
+module tb();
+reg [14:0]vecror_in;
+wire [14:0]vecror_out;
+reg [3:0]in;
+wire [3:0]out;
+
+
+Randomizer r(vector_in,in,vector_out,out);
+
+initial begin 
+$ monetor("%h",out);
+vector_in=15'b011011100010101;     in=4'hA;
+end
+endmodule

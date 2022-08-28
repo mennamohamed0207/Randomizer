@@ -1,0 +1,153 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "vector_in2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in2[8]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in2[9]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in2[10]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in2[11]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in2[12]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in2[13]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in2[14]",
+					"strict" : false
+				},
+				{
+					"name" : "out",
+					"strict" : false
+				},
+				{
+					"name" : "in",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "en",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in[0]",
+					"strict" : false
+				},
+				{
+					"name" : "load",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in[1]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in[2]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in[3]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in[4]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in[5]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in[6]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in[7]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in[8]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in[9]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in[10]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in[11]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in[12]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in[13]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_in[14]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

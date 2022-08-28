@@ -1,0 +1,9 @@
+module shift_xor(in,out);
+ wire v;
+input wire [14:0]in;
+output  [14:0]out;
+
+assign v=in[0]xorin[1];
+
+assign out={v,in[14:1]};
+endmodule

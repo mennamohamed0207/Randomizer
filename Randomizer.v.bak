@@ -1,0 +1,24 @@
+module randomizer(vector_in,in,vector_out,out);
+
+input wire [14:0]vector_in;
+input wire [3:0]in;
+output  [14:0]vector_out;
+output  [3:0]out;
+wire [14:0]v1;
+wire [14:0]v2;
+wire [14:0]v3;
+wire n1,n2,n3,n4;
+
+shift_xor x1(vector_in,v1,n1);
+xor (out[3],n1,in[3]);
+
+shift_xor x2(v1,v2,n2);
+xor (out[2],n2,in[2]);
+
+shift_xor x3(v2,v3,n3);
+xor (out[1],n3,in[1]);
+
+shift_xor x4(v3,vector_out,n4);
+xor (out[0],n4,in[0]);
+
+endmodule

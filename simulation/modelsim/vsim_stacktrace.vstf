@@ -1,0 +1,14 @@
+# Current time Tue May 10 15:16:52 2022
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+# Signature = 4a3706afe29a2b87def93ebd4f2693fa
+# 0    0xfeed369c: '<unknown (@0xfeed369c)>'
+# 1    0x005dfe05: '<unknown (@0x5dfe05)>'
+# 2    0xff0a0e00: 'D:/labs Quartus/randomizer/tb.v:48'
+# End of Stack Trace
+
+
